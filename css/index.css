@@ -6,9 +6,9 @@
     background-color: #4f3753;
 }
 .backgroundAbout{
-    background-image: url('/img/pexels-max-vakhtbovych-6284229.jpg');
+    background-image: url('/img/pexels-pixabay-534151.jpg');
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     height: 300px;
     width: 100%;
@@ -66,7 +66,7 @@
     padding: 20px;
 }.copy p1{
     color: white;
-    font-size: 20px;
+    
 }.texto h3{
     margin-top: 50px;
 }.fa-people-carry{
@@ -99,8 +99,86 @@
       margin-right: 10px;
   }.footerA a{
       text-decoration: none;
-  }.main{
-  }
+      text-align: left;
+  }.carousel h5{
+      font-size: 60px;
+      color: white;
+      margin-bottom: 50px;
+
+  }.carousel-caption{
+      
+      margin-bottom: 70px;
+  }.carousel-caption p{
+    font-size: 20px;
+    color:rgb(255, 255, 255)
+  }.confira{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 100px;
+}.confira:hover{
+    padding: 15px 70px;
+    transition: 0.4s all linear;
+    font-size: 25px;
+}.confira1{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 100px;
+}.confira1:hover{
+    padding: 10px 40px;
+    transition: 0.2s all linear;
+    font-size: 23px;
+    color: red;
+}.maps h1{
+    margin: 30px 0 ;
+}.form input{
+    display: block;
+    width: 80%;
+    margin-bottom: 10px;
+}textarea{
+    width: 80%;
+}.form{
+  margin-top: 50px;
+    margin-bottom: 50px;
+    width: 75%;
+}.form div{
+    text-align: center;
+    width: 80%;
+
+}.button {
+    width: 30%;
+    text-align: center;
+}.contact svg{
+    width: 40px;
+    
+    display: inline;
+}.contact h3{
+    display: inline;
+}.end{
+    display: inline;
+    float: left;
+    margin: 50px 20px 0 0;
+    
+}.end h3,p{
+    display: block;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* .imagem:hover {
  -moz-transform: scale(2.1);
 	-webkit-transform: scale(1.1);
